@@ -96,7 +96,7 @@ class AuthProvider with ChangeNotifier {
         url,
         body: json.encode(
           {
-            'uid': int.parse(uid),
+            'uid': int.parse(uid!),
             'pw': currentPassword,
             'new': changePassword
           },

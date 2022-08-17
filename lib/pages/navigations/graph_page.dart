@@ -12,10 +12,10 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:flutter_camera_overlay/flutter_camera_overlay.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ocr/pages/navigations/ExampleCameraOverlay.dart';
+// import 'package:ocr/pages/navigations/ExampleCameraOverlay.dart';
 
 class GraphPage extends StatefulWidget {
-  static const routeName = '/camera-page';
+  static const routeName = '/graph-page';
 
   const GraphPage({Key? key}) : super(key: key);
 
